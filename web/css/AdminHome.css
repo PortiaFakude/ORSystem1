@@ -1,0 +1,143 @@
+/* 
+    Created on : 24 May 2016, 12:28:34 PM
+    Author     : Portia
+*/
+body {
+
+     font-size:14px;
+     background-image:url("img16.jpg");
+     background-repeat:no-repeat;
+     background-size: 1200px;
+}
+
+#header { 
+background-color: white;
+padding:10px;
+margin:15px;
+width:1020px;
+height:150px;
+border-radius:5px;
+}
+
+#navbar ul{ 
+padding:30px;
+list-style-type:none;
+text-align:center;
+margin:25px;
+border-radius:5px;
+}
+
+#navbar ul li{ 
+display:inline;
+}
+
+#navbar ul li a{ 
+text-decoration:none;
+font-family:Arial;
+padding:.2em 1em;
+color: darkred;
+background-color:white;
+}
+
+#navbar ul li a:hover{
+color :red;
+background-color:blue;    
+}
+
+.main { 
+background-color: white;
+margin:10px;  
+border-radius:5px;
+padding:20px;
+float:center;
+font-size :110%;
+}
+
+.main1 { 
+background-color: white;
+margin-left :10px;  
+margin-right :10px;
+margin-top :10px;
+margin-bottom :10px;
+border-radius:5px;
+padding:10px;
+font-size :110%;
+}
+
+.sideleft{
+background-color:e5e4d7;
+margin:10px;
+border-radius:5px;
+padding:20px;
+font-size:90%;
+float:left;
+width:260px;
+border-color:black;
+}
+
+#footer{
+background-color:white;
+margin:10px;
+height:10px;
+border-radius:5px;
+clear:both;
+color:blue;
+text-align:center;
+padding:15px;
+font-size:90%;
+
+}
+
+.logo{
+margin:5px;
+border-radius:5px;
+padding:5px;
+float:left;
+width:250px;
+height:150px;
+}
+
+.imagesidebar{
+background-color:#ce282e; 
+width:350px;
+float:right;
+margin-left :10px;margin-right: 10px;
+margin-top :0px;margin-bottom : 10px;
+-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+box-shadow: 0 0 20px rgba(0,0,0, .75);
+-webkit-border-radius: 8px; 
+-moz-border-radius: 8px; 
+border-radius:8px;
+background-color:#eae9d4;
+padding: 6px;
+display: none;
+clear: right;
+}
+
+
+/*============================HEADING SECTION================*/ 
+h1{
+font-size:120%;
+color:#ce282e;
+}
+
+h2{
+font-size:120%;
+color:black;
+}
+
+h3{
+font-size:250%;
+text-align:center;
+color:blue;
+margin:0px;
+
+position:relative;
+top:50%;
+-webkit:transform:translateY(-50%);
+-ms-transform:transformY(-50%);
+transform:translateY(-50%);
+}
+
+

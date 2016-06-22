@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Jun 2016, 9:47:09 AM
+    Author     : Portia
+*/
+
+#footer{
+background-color:white;
+margin:10px;
+height:10px;
+border-radius:5px;
+clear:both;
+color:blue;
+text-align:center;
+padding:15px;
+font-size:90%;
+}
+
+body {
+
+     font-size:14px;
+     background-image:url("img16.jpg");
+     background-repeat:no-repeat;
+     background-size: 1200px;
+}

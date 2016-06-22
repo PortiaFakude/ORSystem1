@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Thuto Pele High School</title>
+<link rel = "stylesheet" href = "css/home.css"/>
+</head>
+<body>
+
+
+<div id ="header">
+<img class = "logo" src = "images/logo.png"/>
+<div id ="navbar">
+<ul>
+<li><a href = "index.html">Home</a></li>
+<li><a href = "AboutUs.html">About Us</a></li>
+<li><a href = "ContactUs.html">Contact Us</a></li>
+<li><a href=  "reg.jsp">Register</a></li>
+<li><a href = "Login1.jsp">Login</a></li>
+</ul>   
+</div>
+</div>
+
+<div class ="main1">
+    
+    <h1>THUTO-PELE HIGH SCHOOL IS ONE OF THE BEST SCHOOLS IN THE NORTH WEST PROVINCE</h1>
+<p>
+
+Thuto-Pele High School is one of the top 10 best schools in North West.
+The National Curriculum  <div>
+<img class = "imagesidebar" src = "images/computer labs.jpg"/> 
+<img class = "imagesidebar" src="images/Thuto Pele High School Learners Pic.JPG"/>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("imagesidebar");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);    
+}
+</script>
+
+sets an already high standard of quality teaching for quality learning in which Thuto Pele High is a well resourced academic environment. 
+Highly achieving students take up offers in universities such as University of Johannesburg,University of Cape Town , University of Pretoria and others across the country.
+</p>
+
+
+
+
+
+<br/>
+    
+<h1>ANNOUNCEMENTS</h1>
+<p>
+The exams will start on the 8th of June 2016. <br/>
+For those who wants to join the afternoon study they can use the following classes:<br/>
+C1 - Maths and Science {15:00  - 17:00}<br/>
+C2 - Accounting {15:00 - 17:00}<br/>
+C3 - Maths Literacy {15:00 - 17:00}<br/>
+
+There will be a student assistant to assist those who need help.<br/>
+Good luck!!! 
+</p>
+</div>
+
+<div id ="footer">
+ &copy; 2016 thutopele.com All Rights Reserved.
+</div>
+
+</body>
+
+</html>

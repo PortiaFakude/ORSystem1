@@ -1,0 +1,90 @@
+
+/* 
+    Created on : 24 May 2016, 2:39:14 PM
+    Author     : Portia
+*/
+
+body {
+
+     font-size:14px;
+     background-image:url("img16.jpg");
+     background-repeat:no-repeat;
+     background-size: 1200px;
+}
+
+#navbar ul{ 
+padding:10px;
+list-style-type:none;
+text-align:center;
+background-color: white;
+margin:10px;
+border-radius:5px;
+}
+
+#navbar ul li{ 
+display:inline;
+}
+
+#navbar ul li a{ 
+text-decoration:none;
+font-family:Arial;
+padding:.2em 1em;
+color: darkred;
+background-color:white;
+}
+
+#navbar ul li a:hover{
+color :red;
+background-color:blue;    
+}
+
+#footer{
+background-color:white;
+margin:10px;
+height:10px;
+border-radius:5px;
+clear:both;
+color:blue;
+text-align:center;
+padding:15px;
+font-size:90%;
+
+}
+
+.main1 { 
+background-color: white;
+margin-left :10px;  
+margin-right :10px;
+margin-top :10px;
+margin-bottom :10px;
+border-radius:5px;
+padding:30px;
+font-size :110%;
+}
+
+.mySlides{
+
+display: none;
+
+}
+
+/*============================HEADING SECTION================*/ 
+h1{
+font-size:120%;
+color:#ce282e;
+}
+
+h2{
+font-size:120%;
+color:#ce282e;
+}
+
+h3{
+font-size:120%;
+color:#ce282e;
+}
+
+h4{
+font-size:120%;
+color:#ce282e;
+}

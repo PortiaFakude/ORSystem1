@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<title>Thuto Pele High School</title>
+<link rel = "stylesheet" href = "css/aboutUs.css"/>
+</head>
+<body>
+
+
+<div id ="header">
+<div id ="navbar">
+<ul>
+<li><a href = "index.html">Home</a></li>
+<li><a href="Register.html">Register</a></li>
+<li><a href = "indexed.jsp">Login</a></li>
+<li><a href = "ContactUs.html">Contact Us</a></li>
+</ul>   
+</div>
+</div>
+
+<div class ="main1">
+    
+<h1>THUTO-PELE HIGH SCHOOL IS ONE OF THE TOP 10 SCHOOLS</h1>
+<p>Thuto-Pele High School is a Secondary School schools specialising in Comprehensive. The schools is based in Brits, North West, South Africa.<p/>
+<h2>VISION</h2>
+<p>"To deliver a learner centered education underpinned by established  teaching skills and a strong school culture which ensures that it is high performing, disciplined, ethical, self-developmental and aware of its educational and social environment."</p>
+
+<h3>MISSION</h3>
+<p> "To produce a special quality of students whom colleges, universities and employers will compete to enroll, due to their high levels of performance, ethics and good citizenship."</p>   
+
+<h4>2015 LEARNERS</h4>
+<p>1025 registered learners</p>
+
+    
+<div class="w3-container">
+  <h2>Staff members</h2>
+  <p>Staff members listed below according to their positions</p>
+</div>
+
+
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="images/principal thuto pele high.jpg" style="width:10%">
+  <img class="mySlides" src="images/img16.jpg" style="width:10%">
+  
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-border w3-hover-shadow" src="images/principal thuto pele high.jpg" style="width:10%" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-border w3-hover-shadow" src="images/img16.jpg" style="width:10%" onclick="currentDiv(2)">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-border-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-border-red";
+}
+</script>
+
+</div>
+    
+<div id ="footer">
+ &copy; 2014 thutopele.com All Rights Reserved.
+</div>
+        
+</body>
+</html>
