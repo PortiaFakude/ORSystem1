@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jun 2016, 10:24:59 AM
+    Author     : Portia
+*/
+
+
+#navbar ul{ 
+padding:5px;
+list-style-type:none;
+text-align:center;
+background-color: white;
+margin:220px;
+border-radius:50px;
+}
+
+#navbar ul li{ 
+display:inline;
+}
+
+#navbar ul li a{ 
+text-decoration:none;
+font-family:Arial;
+padding:.2em 1em;
+color: darkred;
+background-color:white;
+}
+
+#navbar ul li a:hover{
+color :red;
+background-color:blue;    
+}

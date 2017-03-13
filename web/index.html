@@ -10,9 +10,9 @@ and open the template in the editor.
 
 <title>Thuto Pele High School</title>
 <link rel = "stylesheet" href = "css/home.css"/>
+<link rel="stylesheet" type="text/css" href="page.css" />
 </head>
 <body>
-
 
 <div id ="header">
 <img class = "logo" src = "images/logo.png"/>
@@ -21,8 +21,21 @@ and open the template in the editor.
 <li><a href = "index.html">Home</a></li>
 <li><a href = "AboutUs.html">About Us</a></li>
 <li><a href = "ContactUs.html">Contact Us</a></li>
-<li><a href=  "reg.jsp">Register</a></li>
-<li><a href = "Login1.jsp">Login</a></li>
+<li class="dropdown">
+    <a href="#" class="dropbtn">Register</a>
+    <div class="dropdown-content">
+      <a href="regstr.jsp">Learner register</a>
+      <a href="teacher.jsp">Teacher register</a>
+    </div>
+</li>
+<li class="dropdown">
+    <a href="#" class="dropbtn">Login</a>
+    <div class="dropdown-content">
+      <a href="LearnerLogin.jsp">Learner login</a>
+      <a href="AdminLogin.jsp">Administrative login</a>
+      <a href="TeacherLogin.jsp">Teacher login</a>
+    </div>
+</li>
 </ul>   
 </div>
 </div>
@@ -36,6 +49,10 @@ Thuto-Pele High School is one of the top 10 best schools in North West.
 The National Curriculum  <div>
 <img class = "imagesidebar" src = "images/computer labs.jpg"/> 
 <img class = "imagesidebar" src="images/Thuto Pele High School Learners Pic.JPG"/>
+<img class = "imagesidebar" src="images/ttp.jpeg"/>
+<img class = "imagesidebar" src="images/5.jpg"/>
+
+
 </div>
 
 <script>
@@ -59,10 +76,6 @@ sets an already high standard of quality teaching for quality learning in which 
 Highly achieving students take up offers in universities such as University of Johannesburg,University of Cape Town , University of Pretoria and others across the country.
 </p>
 
-
-
-
-
 <br/>
     
 <h1>ANNOUNCEMENTS</h1>
@@ -81,7 +94,6 @@ Good luck!!!
 <div id ="footer">
  &copy; 2016 thutopele.com All Rights Reserved.
 </div>
-
 </body>
 
 </html>

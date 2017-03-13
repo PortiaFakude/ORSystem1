@@ -5,29 +5,30 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login</title>
+
 </head>
 <body>
 
 
 <%
-    String learnerID = request.getParameter("username");
-    session.putValue("learnerID", learnerID);
+    String learner_ID = request.getParameter("username");
+    session.putValue("learner_ID", learner_ID);
     String pwd = request.getParameter("password");
     Class.forName("com.mysql.jdbc.Driver");
     Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/thutopelehighschoollearner",
             "root", "");
     Statement st = con.createStatement();
     ResultSet rs;
-    rs = st.executeQuery("select * from learner where username='" + learnerID + "' and password='" + pwd + "'");
+    rs = st.executeQuery("select * from learner where username='" + learner_ID + "' and password='" + pwd + "'");
     if (rs.next()) {
-        session.setAttribute("learnerID", learnerID);
+        session.setAttribute("learner_ID", learner_ID);
         //out.println("welcome " + userid);
         //out.println("<a href='logout.jsp'>Log out</a>");
-        response.sendRedirect("Home.html");
-        out.println("Invalid password <a href='Login1.jsp'>try again</a>");
-    } else {
+        response.sendRedirect("LearnerHome.jsp");
         //out.println("Invalid password <a href='Login1.jsp'>try again</a>");
-        response.sendRedirect("Home.html");
+    } else {
+        out.println("Invalid password or username <a href='Login1.jsp'>try again</a>");
+        //response.sendRedirect("LearnerHome.html");     
     }
 %>
 </body>

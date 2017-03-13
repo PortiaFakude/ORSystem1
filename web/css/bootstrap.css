@@ -1,8 +1,4 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+
 /* 
     Created on : 13 Jun 2016, 11:46:01 AM
     Author     : Portia
@@ -119,7 +115,7 @@ select,
 textarea {
   margin: 0;
   font: inherit;
-  color: inherit;
+  color: red;
 }
 button {
   overflow: visible;
@@ -3065,13 +3061,13 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color:#fff;
   border-color: #ccc;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
-  background-color: #e6e6e6;
+  background-color:#e6e6e6
   border-color: #8c8c8c;
 }
 .btn-default:hover {
@@ -3133,7 +3129,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #286090;
+  background-color:#286090;
   border-color: #204d74;
 }
 .btn-primary:active,

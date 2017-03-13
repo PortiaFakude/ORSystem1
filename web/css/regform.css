@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Jun 2016, 11:44:22 AM
+    Author     : Portia
+*/
+
+
+fieldset {   
+margin: 1.0em 0 0 0;   
+padding: 0;  
+border-color:white;
+
+}  
+legend {   
+margin-left: 1em;   
+color:white;   
+font-weight: bold;
+
+}  
+fieldset ol {   
+padding: 1em 1em 0 1em;   
+list-style: none;  
+}  
+ 
+fieldset.submit {   
+border-style: none;  
+}
+ label{
+     display: block;
+    width:130px;
+    float: left;
+
+}
+a{
+    color:red;
+}
+a:hover{
+    color:orange;
+}
+a:active{
+    color: palegreen;
+}

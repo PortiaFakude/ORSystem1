@@ -48,7 +48,7 @@
                     </tr>
                     <tr>
                         <td><input type="submit" value="Login" /></td>
-                        <td><input type="reset" value="Reset" /></td>
+                        <td><input type="reset" value="Reset" /><a href="ChangePassword.jsp">change password</a></td>
                     </tr>
                     
                 </tbody>

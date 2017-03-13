@@ -9,12 +9,12 @@ package school;
 public class learner {
     
     private int learnerID;
-    private String firstName = "Margaret";
-    private String lastName = "Mhlungu";
+    private String firstName;
+    private String lastName;
     private String cellNo;
     private String DOB;
-    private String address = "23 Block G Letlhabile";
-    private String gender = "Female";
+    private String address;
+    private String gender;
     private String highestGradePassed;
     private String parentContact;
     private String parentName;
@@ -35,7 +35,10 @@ public class learner {
         this.username = username;
         this.password = password;
     }
-
+    public learner()
+    {
+        
+    }
     public int getLearnerID() {
         return learnerID;
     }

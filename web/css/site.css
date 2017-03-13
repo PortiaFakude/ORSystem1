@@ -25,18 +25,21 @@ and open the template in the editor.
     margin-bottom:10px;
 }
 
-.container_body
-{
-    width:100%;
-}
 
-.homepagej {
+.homepagej
+{
     padding:5px;
 }
-body,html,.container_body,img
+.container_body
 {
-    padding:0;
-    margin:0;
+    padding:50;
+    margin:50;
+    border-width: 100px;
+    border-right-width: 100px;
+    border-bottom-width: 100px;
+    border-left-width: 100px;
+    border-top-width: 100px;
+    border-color: white;
 }
 
  @media screen and (max-width: 1001){

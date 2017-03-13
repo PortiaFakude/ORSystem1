@@ -9,6 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel = "stylesheet" href = "css/welcome.css"/>
         <title>Welcome</title>
         <style>
              body{background-image:url("images/img16.jpg");
@@ -23,7 +24,14 @@
     </head>
     <body>
         
-        <h1> Successful Registered.
-Please Login Here <a href="Login1.jsp">Go to Login</a></h1>
+        <h1> Successfully registered.
+
+<div id ="navbar">
+
+<ul>
+<li><a href = "Login1.jsp">Login</a></li>
+</ul>
+</div>
+
     </body>
 </html>

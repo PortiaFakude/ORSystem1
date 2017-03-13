@@ -23,11 +23,12 @@
         session.setAttribute("adminID", adminID);
         //out.println("welcome " + userid);
         //out.println("<a href='logout.jsp'>Log out</a>");
-      // response.sendRedirect("index.html");
-         out.println("Invalid password <a href='Login1.jsp'>try again</a>");
+      response.sendRedirect("AdminHome.jsp");
+         //out.println("Invalid password <a href='Login1.jsp'>try again</a>");
     }  else  {
-       // out.println("Invalid password <a href='Login1.jsp'>try again</a>");
-               response.sendRedirect("Home.html");
+      out.println("Invalid username or password <a href='Login1.jsp'>try again</a>");
+               //response.sendRedirect("Home.html");
+        //response.sendRedirect("AdminHome.jsp");
     }
 %>
 </body>

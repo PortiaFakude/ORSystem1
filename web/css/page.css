@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04 Aug 2016, 12:45:03 PM
+    Author     : Portia
+*/
+
+.page {
+max-width:980px;
+margin: 0px auto;
+position: relative; background-color: #fff;
+box-shadow: 0px 0px 25px #999;
+}
+
+.main2{ 
+background-color: white;
+margin-left :10px;  
+margin-right :10px;
+margin-top :10px;
+margin-bottom :10px;
+border-radius:5px;
+padding:10px;
+font-size :110%;
+}

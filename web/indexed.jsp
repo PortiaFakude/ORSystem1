@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel = "stylesheet" href = "css/regform.css"/>
         <title>Login</title>
         <style>
             body{background-image:url("images/img16.jpg");
@@ -46,9 +47,11 @@
                         <td>Password</td>
                         <td><input type="password" name="pass" value="" /></td>
                     </tr>
+                
                     <tr>
                         <td><input type="submit" value="Login" /></td>
-                        <td><input type="reset" value="Reset" /></td>
+                        <td><input type="reset" value="Reset" /><a href="ChangePassword.jsp">change password</a></td>
+                        
                     </tr>
                     
                 </tbody>
