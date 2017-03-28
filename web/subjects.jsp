@@ -16,7 +16,7 @@ Class.forName("com.mysql.jdbc.Driver");
     Statement st = con.createStatement();
     ResultSet rs;
     int i = st.executeUpdate("insert into subject values ("+subject_ID+",'" + subject_Name+"')");
-    out.println("registerd");
+    //out.println("registerd");
     if (i > 0) {
         //session.setAttribute("userid", subjectID);
         response.sendRedirect("AddSubject.jsp");

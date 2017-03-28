@@ -1,3 +1,9 @@
+<%-- 
+    Document   : LearnerHome1
+    Created on : 20 Mar 2017, 11:33:27 AM
+    Author     : HP
+--%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.DriverManager"%>
@@ -29,10 +35,7 @@ and open the template in the editor.
 <li><a href = "AboutUs.html">About Us</a></li>
 <li><a href = "ContactUs.html">Contact Us</a></li>
 <li><a href = "studentinfo.jsp">Update your details</a></li>
-<li><a href = "uploaded_files.jsp">View notes</a></li>
-<li><a href = "learnerinfo.jsp">View your details</a></li>
 
-<li><a href ="" >You are logged in as:</a><font color="black"><%= session.getAttribute("learner_ID")%> </li>
 <li><a href=  "logout.jsp">(Log out)</a></li>
 </ul>   
 </div>

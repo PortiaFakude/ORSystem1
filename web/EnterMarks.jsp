@@ -32,11 +32,23 @@
         <div class="form-group">
             <h1>ADD MARK</h1>
             
-            <input type="number" name="mark_Perc" id="mark_Perc" required="required"/>
+            <table border="0" width="40%">
+            
+            <tr>
+                <td><h1>Enter mark</h1></td>
+                <td><input type="number" name="mark_Perc" id="mark_Perc" required="required"/></td>
+            </tr>
+            
+                <td><h1>Enter subject_ID</h1></td>
+                <td><input type="number" name="subject_ID" id="subject_ID" required="required"/></td>
+            
+            </table> 
          <input <a href=""class="btn btn-lg btn-primary btn-block"  value="Save" type="submit" onsubmit="">
-       
+        
+             
         </div>
     </fieldset>
+       
     </form>  
     <p><h1>Mark for the following subjects</h1> <br>
  

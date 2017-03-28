@@ -28,10 +28,9 @@ and open the template in the editor.
 <div id ="navbar">
 <ul>
 <li><a href="EnterMarks.jsp">Enter student marks</a></li>
-<li><a href="UploadNotes.jsp">Upload the notes</a></li>
-<li><a href ="UpdateMarks.jsp">Update/View student marks</a></li>
-<li><a href ="SubjectInformation.jsp">View subjects</a></li>
-<li><a href="ChangePasswordAdmin.jsp">Change password</a></li>
+<li><a href="upload_form.jsp">Upload the notes</a></li>
+<li><a href ="marksInfo.jsp">View/Update marks</a></li>
+<li><a href="ChangePasswordTeacher.jsp">Change password</a></li>
 <li><a href=  "logout.jsp">Log out</a></li>
 </ul>
   </div>
